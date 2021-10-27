@@ -5,7 +5,7 @@ class AddTest {
 
     public static void main(String[] args) {
         //add를 바로 구현해버리기
-        Add addXY = (x, y) -> {return x+y;};
+        Add addXY = Integer::sum;
 
         int result = addXY.add(1, 2);
 
